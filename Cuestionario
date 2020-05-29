@@ -1,0 +1,47 @@
+PREGUNTAS A RESPONDER CON NUESTRAS PALABRAS
+¿Qué es node.js?
+
+R= Es un entorno que usa JavaScript para ejecutar varias tareas, de manera escalonada (asíncrono).
+
+
+¿Cómo funciona internamente Node.js? ¿Qué lo hace tan eficiente?
+
+R= Porque node.js puede ser utilizado desde el lado del cliente y del lado del servidor.
+
+
+
+INVESTIGACIÓN
+¿Qué es un modelo de concurrencia?
+
+R= La composición de elementos (funciones, procesos, programas, etc) que se ejecutan independientemente pero interactúan entre sí. No necesariamente se ejecutan al mismo tiempo.
+
+Por lo tanto, un programa concurrente es uno que se vale de distintos procesos indpendientes para lograr su objetivo, que pueden o no correr al mismo tiempo exactamente.
+
+Fuente. https://blog.thedojo.mx/2019/04/17/la-diferencia-entre-concurrencia-y-paralelismo.html
+
+
+
+Modelo Multithreading.
+
+R= Utiliza varios hilos para realizar uno o varios procesos o tareas para cumpir con uno o varios objetivos. Caso de la señora de las tortas de chilaquiles
+
+Fuente. https://sg.com.mx/buzz/ponencias/eventloop/multi-threading-en-nodejs
+
+
+Modelo Reactivo-Eventos.
+
+R= La programación reactiva es un paradigma enfocado en el trabajo con flujos de datos finitos o infinitos de manera asíncrona. Su concepción y evolución ha ido ligada a la publicación del Reactive Manifesto, que establecía las bases de los sistemas reactivos, los cuales deben ser:
+
+Responsivos: aseguran la calidad del servicio cumpliendo unos tiempos de respuesta establecidos.
+Resilientes: se mantienen responsivos incluso cuando se enfrentan a situaciones de error.
+Elásticos: se mantienen responsivos incluso ante aumentos en la carga de trabajo.
+Orientados a mensajes: minimizan el acoplamiento entre componentes al establecer interacciones basadas en el intercambio de mensajes de manera asíncrona.
+
+Fuente. https://profile.es/blog/que-es-la-programacion-reactiva-una-introduccion/
+
+
+Modelo de Actores
+
+R= Son como colas de mensajes programables reducidas a un micro tamaño, y se puede crear fácilmente miles, incluso millones de ellos. Una característica de los actores es que no hacen nada a menos que se les envíe un mensaje.
+
+Fuente. https://medium.com/techwomenc/modelo-de-actores-con-akka-225c28a4dff4
